@@ -6,16 +6,7 @@ post setConstructionStagesById/(:id)
 put  delConstructionStagesById/(:id)
 
 
-Function annotations added to ConstructionStages.php
-response	Return Data Structure (Data, Message, Request Code)
-updateTable	Function That Updates The Table With İncoming Data And İd
-setConstructionStagesById	Function That Checks İncoming Data
-isValidISO8601DateTime	Function That Checks İncoming Date Format
-calculateDuration	Function That Calculates Weekday And Time Difference Between Two Dates
-isValidHexColor
-	Color Type Control
-isValidDurationUnit
-	Durationunit Control Function
+
 
 The first endpoint checks the necessary parameters for an update, converts them to the desired format and structure for tasks 2 and 3, and performs the update. Otherwise, it returns an error code.
 http://localhost/phpApi/index.php/setConstructionStagesById/1
